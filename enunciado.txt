@@ -1,0 +1,12 @@
+	* Los caballos no se dibujan bien, de hecho ahora aparecen como círculos. Quien consiga que los caballos salgan como un rectángulo y un triángulo +1 punto.
+
+	* +2 puntos si se implementa el guardar partida y y cargar una partida en el modo gráfico. Si os fijáis en los java del proyecto, ya hay código por ahí para leer de un archivo y escribir a un archivo. Podéis utilizarlo para implementar saveToFile y loadFromFile de la interfaz ChessBoard. Las sugerencias acerca de cómo atacar este apartado, las podéis preguntar y sugerir en el foro de la práctica 4.
+
+	* Cuando un usuario en modo gráfico elige una ficha, estaría bien que se pintaran de un color determinado aquellas casillas donde puede moverse la ficha seleccionada, para quien haga esto, +2 puntos. Recomiendo encarecidamente implementar esto, pues puede ayudaros en otras cosas.
+
+	* +1 punto por arreglar la lógica de la partida en el modo gráfico. Si os fijáis no hay ningún orden, uno puede mover todas las fichas sin orden de blancas/negras.
+
+	* +1 punto si se utiliza la IA proporcionada (en el proyecto de NetBeans llamado Chess) de alguna manera para que se pueda jugar contra la máquina (aunque sea en modo random).
+
+	* El juego no permite enrocarse, si se consigue +1 punto.
+	* El juego no convierte en damas a los peones cuando llegan al otro extremo, si se consigue +1 punto.
