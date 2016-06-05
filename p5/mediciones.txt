@@ -1,0 +1,63 @@
+PARTE 1
+
+ADD ELEMENT:         ArrayList            LinkedList          
+Start:               0.008925 ms          0.010264 ms         
+Final:               0.001339 ms          8.93E-4 ms          
+Middle:              0.001785 ms          0.010264 ms         
+
+DELETE ELEMENT:      ArrayList            LinkedList          
+Start:               0.002231 ms          0.001339 ms         
+Middle:              0.001785 ms          0.00714 ms          
+Final:               0.001338 ms          0.001338 ms         
+Delete 2:            0.156632 ms          1.133467 ms         
+Delete 499:          0.08925 ms           0.68008 ms          
+Delete 999:          0.093266 ms          0.830019 ms         
+
+SEARCH:              ArrayList            LinkedList          
+Search 1 (2)         0.09282 ms           0.077201 ms         
+Search 1 (499)       0.044625 ms          0.044179 ms         
+Search 1 (999)       0.043286 ms          0.056674 ms         
+Search 1 (1250)      0.062921 ms          0.056227 ms         
+Search 2 (2)         0.083448 ms          0.423042 ms         
+Search 2 (499)       0.111561 ms          0.373955 ms         
+Search 2 (999)       0.093266 ms          0.401176 ms         
+Search 2 (1250)      0.088803 ms          0.373062 ms         
+Binaria (2)          0.00357 ms           0.008478 ms         
+Binaria (499)        0.002231 ms          0.016065 ms         
+Binaria (999)        0.001785 ms          0.004909 ms         
+
+CLEAR LIST:          ArrayList            LinkedList          
+Clear:               0.020081 ms          0.025436 ms  
+
+
+--------------------------------------------------------
+PARTE 2
+
+LISTA INVERSA
+Bubble Sort                    42.076154 ms        
+Selection Sort                 13.954134 ms        
+Insertion Sort                 13.811335 ms        
+Quick Sort                     1.054481 ms         
+Merge Sort                     5.425914 ms         
+LISTA VALORES IGUALES
+Bubble Sort                    0.04284 ms          
+Selection Sort                 15.628897 ms        
+Insertion Sort                 6.990454 ms         
+Quick Sort                     0.327992 ms         
+Merge Sort                     4.970742 ms         
+LISTA VALORES ORDENADOS
+Bubble Sort                    0.03927 ms          
+Selection Sort                 2.353059 ms         
+Insertion Sort                 0.659999 ms         
+Quick Sort                     0.298986 ms         
+Merge Sort                     4.688714 ms         
+LISTA ALEATORIA
+Bubble Sort                    12.42083 ms         
+Selection Sort                 2.492734 ms         
+Insertion Sort                 0.634116 ms         
+Merge Sort                     4.222833 ms         
+BUSQUEDAS
+Busqueda binaria Inicio        0.01071 ms          
+Busqueda secuencial Inicio     0.004909 ms         
+Busqueda binaria Medio         0.045517 ms         
+Busqueda secuencial Medio      0.049533 ms   
