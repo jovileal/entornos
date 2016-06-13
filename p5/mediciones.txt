@@ -65,4 +65,29 @@ BUSQUEDAS
 Busqueda binaria Inicio        0.015172 ms         
 Busqueda secuencial Inicio     0.003124 ms         
 Busqueda binaria Medio         8.93E-4 ms          
-Busqueda secuencial Medio      0.043732 ms  
+Busqueda secuencial Medio      0.043732 ms 
+
+
+
+
+RUNTEST             
+Test BubbleSort OK  
+Test SelectionSort OK
+Test InsertionSort OK
+Test QuickSort OK   
+Test MergeSort OK   
+Test BubbleSort OK  
+Test SelectionSort OK
+Test InsertionSort OK
+Test QuickSort OK   
+Test MergeSort OK   
+Test BubbleSort OK  
+Test SelectionSort OK
+Test InsertionSort OK
+Test QuickSort OK   
+Test MergeSort OK   
+Test BubbleSort OK  
+Test SelectionSort OK
+Test InsertionSort OK
+Test QuickSort OK   
+Test MergeSort OK 
