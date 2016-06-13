@@ -1,63 +1,68 @@
-PARTE 1
+PARTE1
 
-ADD ELEMENT:         ArrayList            LinkedList          
-Start:               0.008925 ms          0.010264 ms         
-Final:               0.001339 ms          8.93E-4 ms          
-Middle:              0.001785 ms          0.010264 ms         
+
+ADD ELEMENT:         ArrayList            ArrayList (min)      LinkedList           LinkedList (min)    
+Start:               0.001598459          4.46E-4               5.21124584717608E-4  4.46E-4             
+Final:               4.6574316939890714E-4 4.46E-4              2.567259036144578E-10 4.46E-4             
+Middle:              4.6094011976047906E-4 4.46E-4              1.253059             4.46E-4  
+
 
 DELETE ELEMENT:      ArrayList            LinkedList          
-Start:               0.002231 ms          0.001339 ms         
-Middle:              0.001785 ms          0.00714 ms          
-Final:               0.001338 ms          0.001338 ms         
-Delete 2:            0.156632 ms          1.133467 ms         
-Delete 499:          0.08925 ms           0.68008 ms          
-Delete 999:          0.093266 ms          0.830019 ms         
+Start:               0.005801 ms          0.009817 ms         
+Middle:              0.004016 ms          0.01071 ms          
+Final:               0.001338 ms          0.001785 ms 
 
-SEARCH:              ArrayList            LinkedList          
-Search 1 (2)         0.09282 ms           0.077201 ms         
-Search 1 (499)       0.044625 ms          0.044179 ms         
-Search 1 (999)       0.043286 ms          0.056674 ms         
-Search 1 (1250)      0.062921 ms          0.056227 ms         
-Search 2 (2)         0.083448 ms          0.423042 ms         
-Search 2 (499)       0.111561 ms          0.373955 ms         
-Search 2 (999)       0.093266 ms          0.401176 ms         
-Search 2 (1250)      0.088803 ms          0.373062 ms         
-Binaria (2)          0.00357 ms           0.008478 ms         
-Binaria (499)        0.002231 ms          0.016065 ms         
-Binaria (999)        0.001785 ms          0.004909 ms         
+DELETE ELEMENT:( by value)
+Delete 2:            0.196794 ms          1.321782 ms         
+Delete 499:          0.125842 ms          0.873751 ms         
+Delete 999:          0.087018 ms          0.782716 ms 
 
-CLEAR LIST:          ArrayList            LinkedList          
-Clear:               0.020081 ms          0.025436 ms  
+SEARCH:                        ArrayList            LinkedList          
+Search by Position (2)         0.009818 ms          0.004462 ms         
+Search by Position (499)       0.048641 ms          0.040608 ms         
+Search by Position (999)       0.046409 ms          0.044625 ms         
+Search by Position (1250)      0.052211 ms          0.051765 ms         
+Search by Value (2)            0.008479 ms          0.008032 ms         
+Search by Value (499)          0.11647 ms           0.761297 ms         
+Search by Value (999)          0.086126 ms          0.685881 ms         
+Search by Value (1250)         0.083448 ms          0.719796 ms         
+Binaria (2)                    0.002231 ms          0.023652 ms         
+Binaria (499)                  4.46E-4 ms           0.002231 ms         
+Binaria (999)                  0.002231 ms          0.008033 ms         
+Binaria (1250)                 0.001785 ms          0.009818 ms 
 
 
---------------------------------------------------------
-PARTE 2
 
-LISTA INVERSA
-Bubble Sort                    42.076154 ms        
-Selection Sort                 13.954134 ms        
-Insertion Sort                 13.811335 ms        
-Quick Sort                     1.054481 ms         
-Merge Sort                     5.425914 ms         
-LISTA VALORES IGUALES
-Bubble Sort                    0.04284 ms          
-Selection Sort                 15.628897 ms        
-Insertion Sort                 6.990454 ms         
-Quick Sort                     0.327992 ms         
-Merge Sort                     4.970742 ms         
-LISTA VALORES ORDENADOS
-Bubble Sort                    0.03927 ms          
-Selection Sort                 2.353059 ms         
-Insertion Sort                 0.659999 ms         
-Quick Sort                     0.298986 ms         
-Merge Sort                     4.688714 ms         
-LISTA ALEATORIA
-Bubble Sort                    12.42083 ms         
-Selection Sort                 2.492734 ms         
-Insertion Sort                 0.634116 ms         
-Merge Sort                     4.222833 ms         
+Clear:               0.018742 ms          0.025436 ms 
+
+----------------------------------------------------------------
+
+PARTE 2: Repetido 1000 veces
+
+LISTA DESCENDIENTE: BubbleSort           Tiempo medio: 5.725159349 ms             Tiempo minimo: 5.314798                 
+LISTA DESCENDIENTE: SelectionSort        Tiempo medio: 2.380069673 ms             Tiempo minimo: 2.269164                 
+LISTA DESCENDIENTE: InsertionSort        Tiempo medio: 4.295905277 ms             Tiempo minimo: 3.945713                 
+LISTA DESCENDIENTE: QuickSort            Tiempo medio: 0.055226188 ms             Tiempo minimo: 0.022312                 
+LISTA DESCENDIENTE: MergeSort            Tiempo medio: 4.132852987000001 ms       Tiempo minimo: 3.946159                 
+LISTA ELEMENTOS IGUALES: BubbleSort      Tiempo medio: 0.003115261 ms             Tiempo minimo: 0.002677                 
+LISTA ELEMENTOS IGUALES: SelectionSort   Tiempo medio: 2.3216474799999998 ms      Tiempo minimo: 2.264255                 
+LISTA ELEMENTOS IGUALES: InsertionSort   Tiempo medio: 1.898419089 ms             Tiempo minimo: 1.810422                 
+LISTA ELEMENTOS IGUALES: QuickSort       Tiempo medio: 0.047215125 ms             Tiempo minimo: 0.044624                 
+LISTA ELEMENTOS IGUALES: MergeSort       Tiempo medio: 4.121091718 ms             Tiempo minimo: 3.923847                 
+LISTA ASCENDENTE: BubbleSort             Tiempo medio: 0.00328929 ms              Tiempo minimo: 0.002677                 
+LISTA ASCENDENTE: SelectionSort          Tiempo medio: 2.394358452 ms             Tiempo minimo: 2.265148                 
+LISTA ASCENDENTE: InsertionSort          Tiempo medio: 1.888657415 ms             Tiempo minimo: 1.8131                   
+LISTA ASCENDENTE: QuickSort              Tiempo medio: 0.020605882000000002 ms    Tiempo minimo: 0.019188                 
+LISTA ASCENDENTE: MergeSort              Tiempo medio: 4.108221068 ms             Tiempo minimo: 3.810054                 
+LISTA ALEATORIA: BubbleSort              Tiempo medio: 4.612955086 ms             Tiempo minimo: 4.33841                  
+LISTA ALEATORIA: SelectionSort           Tiempo medio: 2.374067627 ms             Tiempo minimo: 2.275411                 
+LISTA ALEATORIA: InsertionSort           Tiempo medio: 3.2810706869999997 ms      Tiempo minimo: 3.070623                 
+LISTA ALEATORIA: QuickSort               Tiempo medio: 0.11489959699999999 ms     Tiempo minimo: 0.072292                 
+LISTA ALEATORIA: MergeSort               Tiempo medio: 4.109222425 ms             Tiempo minimo: 3.857803                 
+
+
 BUSQUEDAS
-Busqueda binaria Inicio        0.01071 ms          
-Busqueda secuencial Inicio     0.004909 ms         
-Busqueda binaria Medio         0.045517 ms         
-Busqueda secuencial Medio      0.049533 ms   
+Busqueda binaria Inicio        0.015172 ms         
+Busqueda secuencial Inicio     0.003124 ms         
+Busqueda binaria Medio         8.93E-4 ms          
+Busqueda secuencial Medio      0.043732 ms  
